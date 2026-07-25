@@ -23,7 +23,6 @@ NOTE:{{ site.description }}
 REV:{{ "now" | date: "%s" }}
 URL:{{ site.url }}{% link index.html %}
 CALURI;PREF=1;MEDIATYPE=text/calendar:{{ site.data.tours.google_calendar.ics_url }}
-X-EASTER-EGG;VALUE=text:Li brx'uh qrw rqh wr vdb "wzr'v frpsdqb, exw wkuhh'v d furzg," qdph wklv flskhu wr hduq wzr kxqguhg grooduv rii (pb sruwlrq) zkhq errnlqj ph dv sduw ri d gxr, wulr, ru jurxs zlwk dqb ri pb fr-zrunhuv dqg zh'oo kdyh brx ihholqj olnh wklv dqflhqw nlqj iru d gdb!
 {% for partner in site.data.partners -%}
 RELATED;TYPE=co-worker;VALUE=uri:{{ partner.urls[0].url }}{{ '' }}
 {% endfor -%}
